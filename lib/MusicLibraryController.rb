@@ -84,6 +84,7 @@ def play_song
   input = gets.chomp.to_i
   if input > 0 && <= Song.all.length 
     song_array = Song.all.each_with_index {|a,b| a.name <=> b.name}
+    song = (song_array)
   
   
   
