@@ -67,6 +67,7 @@ def list_songs_by_artist
       puts "#{i+1}. #{song.name} - #{song.genre.name}"
 end
 end
+end
 
 
 end
