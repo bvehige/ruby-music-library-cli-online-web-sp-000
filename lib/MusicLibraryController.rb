@@ -33,7 +33,8 @@ def call
     self.list_genre
   when "play song"
     self.play_song
-  when "exit"
+  else
+    puts "Please enter a valid "
     
     
   
