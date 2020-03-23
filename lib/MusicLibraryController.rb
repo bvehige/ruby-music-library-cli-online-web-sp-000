@@ -51,7 +51,7 @@ def list_songs
   
 def list_artists
   artists = Artist.all.sort {|a,b| a.name <=> b.name}
-  artists.each_with_index(1) {|artist, i| puts "#{i}. #{artist.name}"}
+  artists.each_with_index {|artist, i| puts "#{i}. #{artist.name}"}
 end
 
 end
