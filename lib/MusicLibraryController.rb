@@ -37,10 +37,9 @@ def call
     self.play_song
   end
 end
-    
-    
-  
 end
 
+def list_songs
+  @path.each.sort 
 
 end
