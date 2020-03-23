@@ -9,6 +9,8 @@ end
 
 def call 
   puts "Welcome to your music library!"
+  
+  
   puts "To list all of your songs, enter 'list songs'."
   puts "To list all of the artists in your library, enter 'list artists'."
   puts "To list all of the genres in your library, enter 'list genres'."
@@ -33,8 +35,6 @@ def call
     self.list_genre
   when "play song"
     self.play_song
-  else
-    puts "Type in a valid request please"
   end
   
     
