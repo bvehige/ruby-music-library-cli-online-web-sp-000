@@ -40,6 +40,6 @@ end
 end
 
 def list_songs
-  @path.sort 
+   binding.pry
 
 end
