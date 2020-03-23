@@ -48,5 +48,8 @@ def list_songs
   
     # binding.pry
   end
+  
+def list_artists
+  Artist.all.sort {a,b| a.
 
 end
