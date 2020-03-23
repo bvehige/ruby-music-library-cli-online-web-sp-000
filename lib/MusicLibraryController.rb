@@ -59,4 +59,9 @@ def list_genres
   genres.each_with_index {|genre, i| puts "#{i+1}. #{genre.name}"}
 end
 
+def list_songs_by_artist
+  
+end
+
+
 end
