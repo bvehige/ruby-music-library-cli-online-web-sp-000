@@ -67,6 +67,7 @@ def list_songs_by_artist
       puts "#{i+1}. #{song.name} - #{song.genre.name}"
 end
 end
+end
 
 def list_songs_by_genre
   puts "Please enter the name of the genre:"
@@ -75,6 +76,7 @@ def list_songs_by_genre
     genre.songs.sort{|a,b| a.name <=> b.name}.each_with_index do |song, i| 
       puts "#{i+1}. #{song.artist.name} - #{song.name}"
   end
+end
 end
 
 
