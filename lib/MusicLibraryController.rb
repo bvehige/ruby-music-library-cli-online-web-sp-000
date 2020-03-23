@@ -52,5 +52,6 @@ def list_songs
 def list_artists
   artists = Artist.all.sort {|a,b| a.name <=> b.name}
   binding.pry
+end
 
 end
