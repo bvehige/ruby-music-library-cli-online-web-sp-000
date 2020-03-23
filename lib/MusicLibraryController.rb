@@ -67,6 +67,11 @@ def list_songs_by_artist
       puts "#{i+1}. #{song.name} - #{song.genre.name}"
 end
 end
+
+def list_songs_by_genre
+  puts "Please enter the name of the genre:"
+  input = gets.chomp
+  
 end
 
 
