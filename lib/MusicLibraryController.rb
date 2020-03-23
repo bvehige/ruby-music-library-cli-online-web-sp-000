@@ -44,7 +44,6 @@ def list_songs
    Songs.all.sort{|a,b|a.name <=> b.name}.each_with_index[1] |song, i| do
      puts "#{i}. #{song.artist.name} - #{song.name} - #{song.genre.name}"
    end
-   
 end
 
 end
