@@ -81,7 +81,7 @@ end
 
 def play_song
   puts "Which song number would you like to play?"
-  input = gets.chomp
+  input = gets.chomp.to_i
   Song.find_by_name(input)
   
   
