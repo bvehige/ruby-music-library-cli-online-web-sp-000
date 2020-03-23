@@ -34,7 +34,9 @@ def call
   when "play song"
     self.play_song
   else
-    puts "Type "
+    puts "Type in a valid request please"
+  end
+  
     
     
   
