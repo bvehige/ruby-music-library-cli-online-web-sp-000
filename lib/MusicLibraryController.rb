@@ -66,6 +66,7 @@ def list_songs_by_artist
     artist.songs.sort {|a,b| a.name <=> b.name}.each_with_index do |song, i|
       puts "#{i+1}. #{song.name} - #{song.genre.name}"
 end
+end
 
 
 end
