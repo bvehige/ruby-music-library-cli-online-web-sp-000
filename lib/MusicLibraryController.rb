@@ -85,10 +85,8 @@ def play_song
   if input > 0 && <= Song.all.length 
     song_array = Song.all.each_with_index {|a,b| a.name <=> b.name}
     song = song_array[input - 1]
-    puts" 
-  
-  
-  
+    puts "Playing #{song.name} by #{song.artist.name}."
+  end
 end
 
 
