@@ -41,7 +41,7 @@ end
 end
 
 def list_songs
-   binding.pry
+   Songs.all.sort
 end
 
 end
