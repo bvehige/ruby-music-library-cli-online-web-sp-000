@@ -20,7 +20,7 @@ def call
   
   input = gets.chomp 
   
-  
+  case 
   
 end
 
