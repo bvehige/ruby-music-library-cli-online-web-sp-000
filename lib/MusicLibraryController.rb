@@ -21,6 +21,8 @@ def call
   input = gets.chomp 
   
   case 
+  when input == "list songs"
+    
   
 end
 
